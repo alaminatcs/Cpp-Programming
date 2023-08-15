@@ -1,0 +1,4 @@
+Name	ID	Batch	Sec	 CGPA
+Rahim	3	55		A	 3.8
+Karim	7	55		B	 3.85
+Nayem	2	56		C	 3.25
