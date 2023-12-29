@@ -15,12 +15,10 @@ class Student {
 };
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
-    int n;
-    cin >> n;
+    int n; cin >> n;
     Student info[n];
     for(int i = 0; i < n; i++) {
-        char nm[100];
-        cin >> nm;
+        char nm[100]; cin >> nm;
         strcpy(info[i].name, nm);
         cin >> info[i].id >> info[i].batch >> info[i].section >> info[i].cgpa;
     }
